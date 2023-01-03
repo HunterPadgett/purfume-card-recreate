@@ -15,7 +15,140 @@ body {
  background-size: cover;
 }
 
-@media (min-width: 1150px) {
+@media (max-width: 480px) {
+ /* .outerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+  height: 95%;
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 40px #00000052;
+ } */
+
+ section {
+  display: block;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  height: 90vh;
+  width: 93vw;
+  border-radius: 10px;
+  overflow: hidden;
+  /* box-shadow: 2px 2px 40px #00000052; */
+ }
+
+ img {
+  width: 100vw;
+  height: 40vh;
+  object-fit: cover;
+ }
+
+ article {
+  /* width: 100%; */
+  display: grid;
+  /* flex-direction: column; */
+  /* align-content: space-around; */
+  height: 50%;
+  padding: 0.5em 1em;
+ }
+
+ p {
+  margin: 0;
+  font-size: 15px;
+  max-width: 85%;
+ }
+
+ br {
+  display: none;
+ }
+
+ .headline {
+  margin-top: 0.5em;
+  letter-spacing: 4px;
+  margin-left: 5px;
+ }
+
+ .headline,
+ .description {
+  font-weight: 600;
+  color: hsl(228, 12%, 48%);
+ }
+
+ .description {
+  line-height: 30px;
+  text-overflow: ellipsis;
+  margin-left: 5px;
+ }
+
+ .name {
+  font-family: "Fraunces", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 37px;
+  color: hsl(212, 21%, 14%);
+  margin-left: 5px;
+ }
+
+ .prices {
+  /* display: flex;
+  align-items: center; */
+ }
+
+ .price {
+  text-decoration: line-through;
+  font-family: "Fraunces", serif;
+  font-size: 15px;
+  color: hsl(228, 12%, 48%);
+ }
+
+ .salePrice {
+  font-family: "Fraunces", serif;
+
+  color: hsl(158, 36%, 37%);
+  font-weight: 900;
+  font-size: 35px;
+  margin-right: 35px;
+  margin-left: 5px;
+ }
+
+ button {
+  height: 120%;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 10px;
+  transition: 0.1s ease-in-out;
+  transform: scale(1);
+ }
+
+ .cartImg {
+  display: none;
+ }
+
+ button:hover {
+  background-color: hsl(159, 35%, 33%);
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #00000052;
+  transition: 0.1s ease-in-out;
+ }
+
+ button:active {
+  transform: scale(0.97);
+ }
+
+ footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+ }
+}
+
+@media (min-width: 768px) {
  /* screen sizes 768px and up */
 
  .outerContent {
