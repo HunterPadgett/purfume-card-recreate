@@ -91,7 +91,6 @@ body {
   margin-left: 5px;
  }
 
-
  .price {
   text-decoration: line-through;
   font-family: "Fraunces", serif;
@@ -139,8 +138,18 @@ body {
 
  footer {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+  color: black;
+  font-size: 0.8em;
+  padding: 1px;
   bottom: 0;
   width: 100%;
+ }
+
+ a {
+  color: hsl(159, 89%, 25%);
  }
 }
 
@@ -262,10 +271,19 @@ body {
   transform: scale(0.97);
  }
 
- footer {
+footer {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  /* background-color: black; */
+  color: black;
+  padding: 2px;
   bottom: 0;
   width: 100%;
+ }
+
+ a {
+  color: hsl(158, 80%, 25%);
  }
 }
 
@@ -378,7 +396,16 @@ body {
 
  footer {
   position: absolute;
+  display: flex;
+  justify-content: center;
+   /* background-color: black; */
+  color: black;
+  padding: 2px;
   bottom: 0;
   width: 100%;
+ }
+
+ a {
+  color: hsl(158, 80%, 25%);
  }
 }
